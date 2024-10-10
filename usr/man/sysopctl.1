@@ -1,0 +1,42 @@
+.TH SYSOPCTL 1 "October 2024" "v0.1.0" "System Administration Command"
+.SH NAME
+sysopctl \- A command-line tool for managing system services, processes, and health.
+.SH SYNOPSIS
+.B sysopctl
+[\-\-help] [\-\-version] [service list | start | stop] [system load] [disk usage] [process monitor] [logs analyze] [backup path]
+.SH DESCRIPTION
+.B sysopctl
+is a custom command designed to manage system resources. It simplifies tasks such as service management, disk monitoring, and backup.
+.SH OPTIONS
+.TP
+.B \-\-help
+Show the help page.
+.TP
+.B \-\-version
+Display the version of the command.
+.TP
+.B service list
+List all active services.
+.TP
+.B service start <service-name>
+Start a system service.
+.TP
+.B service stop <service-name>
+Stop a running system service.
+.TP
+.B system load
+Display system load averages.
+.TP
+.B disk usage
+Show disk usage statistics by partition.
+.TP
+.B process monitor
+Monitor real-time system processes.
+.TP
+.B logs analyze
+Summarize recent critical system logs.
+.TP
+.B backup <path>
+Backup files to a predefined location.
+.SH AUTHOR
+Written by the sysopctl development team.
